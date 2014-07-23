@@ -1,0 +1,79 @@
+/* CSS Document */
+body {font-family:Georgia, "Times New Roman", Times, serif;font-size:medium}
+/*ÈÝÆ÷*/
+div#container{width:700px; margin:auto;}
+/*Í·²¿*/
+div#header 
+{
+ width:700px; 
+ padding:30px;
+ text-align:center;
+ font-weight:900;
+ font-size:24px;
+ color:blue;
+}
+/*µ¼º½À¸*/
+div#meau
+{
+ width:544px;
+ margin:auto;
+}
+div#meau ul
+{
+ list-style-type:none;
+ margin:0;
+ padding:0;
+ text-align:center;
+ overflow:hidden;
+ font-size:small;
+}
+div#meau ul li
+{
+ float:left;
+}
+div#meau a:link,div#meau a:visited
+{
+ display:block;
+ width:120px;
+ font-weight:bold;
+ color:#FFFFFF;
+ background-color:#bebebe;
+ text-align:center;
+ padding:8px;
+ text-decoration:none;
+}
+div#meau a:hover,div#meau a:active
+{
+ background-color:#cc0000;
+}
+
+/*ÄÚÈÝÒ³*/
+div#content
+{
+ width:544px;
+ margin:auto;
+}
+
+/*Ò³½Å*/
+div#footer
+{
+ width:524px;
+ margin:auto;
+ padding:10px;
+ text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
