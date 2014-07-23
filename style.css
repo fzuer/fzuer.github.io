@@ -1,23 +1,27 @@
 /* CSS Document */
+/*全局*/
 body {font-family:Georgia, "Times New Roman", Times, serif;font-size:medium}
 a:link,a:visited{text-decoration:none;color:#0000FF;}
-/*容器*/
-div#container{width:700px; margin:auto;}
+
+/*主容器*/
+div#container{width:600px; margin:0 auto 30px;}
+
 /*头部*/
 div#header 
 {
- width:700px; 
- padding:30px;
+ width:600px; 
+ padding:30px 0 30px 0;
  text-align:center;
  font-weight:900;
  font-size:24px;
  color:blue;
 }
+
 /*导航栏*/
 div#meau
 {
  margin:0 auto;
- width:544px;
+ width:600px;
 }
 div#meau ul
 {
@@ -35,12 +39,12 @@ div#meau ul li
 div#meau a:link,div#meau a:visited
 {
  display:block;
- width:120px;
+ width:130px;
  font-weight:bold;
  color:#FFFFFF;
  background-color:#bebebe;
  text-align:center;
- padding:8px;
+ padding:10px;
  text-decoration:none;
 }
 div#meau a:hover,div#meau a:active
@@ -48,30 +52,34 @@ div#meau a:hover,div#meau a:active
  background-color:#cc0000;
 }
 
-/*内容页*/
-div#content
-{
- width:544px;
- margin:auto;
-}
-
 /*页脚*/
 div#footer
 {
- width:524px;
- margin:auto;
+ width:500px;
+ margin:0 auto;
  padding:10px;
  text-align:center;
+ font-size:small;
 }
 
 /*滚动条*/
-div#zxdt{width:70px;font-weight:900;text-align:center;}
-div#scroll{width:455px;color:blue;}
-div#zxdt,div#scroll
- {float:left;
-  padding:5px 0 5px 0;
-  margin:5px 3px 5px 3px;
-  font-size:small;}
+div#scro
+{
+ width:500px;
+ color:blue;
+ padding:10px;
+ margin:0 auto;
+ font-size:small;
+}
+
+/*内容*/
+div#content
+{
+width:600px;
+margin:0 auto;
+padding:0;
+}
+
 
 
 
