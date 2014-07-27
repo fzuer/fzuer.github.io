@@ -1,10 +1,18 @@
 /* CSS Document */
 /*全局*/
-body {font-family:Georgia, "Times New Roman", Times, serif;font-size:small;line-height:20px;}
+body {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:small;
+	line-height:20px;
+}
 a:link,a:visited{text-decoration:none;color:#0000FF;}
-
+a:hover,a:active{text-decoration:none;color:#FF9900;}
+li span{color:#000000;font-weight:bold;}
 /*主容器*/
-div#container{width:600px; margin:0 auto 30px;}
+div#container{
+	width:600px;
+	margin:0 auto 30px;
+}
 
 /*头部*/
 div#header 
@@ -54,7 +62,7 @@ div#meau a:hover,div#meau a:active
 /*页脚*/
 div#footer
 {
- width:500px;
+ width:400px;
  margin:0 auto;
  padding:10px;
  text-align:center;
@@ -63,10 +71,12 @@ div#footer
 /*滚动条*/
 div#scro
 {
- width:500px;
+ width:235px;
  color:blue;
  padding:10px;
- margin:0 auto;
+ margin:10px 0 10px 10px;
+ background-color:#EEE;
+ border: 0 #EEE;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;
 }
 
 /*内容*/
@@ -75,7 +85,6 @@ div#content
 width:600px;
 margin:0 auto;
 padding:0;
-
 }
 
 /*通知块*/
@@ -91,6 +100,8 @@ border:1px solid #0099FF;
 div.notice h3
 {text-align:center;
  margin:0;}
-
 div.notice p
 {text-indent:2em;}
+
+div.notice span
+{color:blue;}
