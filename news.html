@@ -21,29 +21,41 @@
    <li><a href="index.html">首页</a></li>
    <li><a href="weibo.html">微博动态</a></li>
    <li><a href="notice.html">通知</a></li>
-   <li><a href="news.html">团务宣传</a><li>
+   <li><a href="news.html">班级新闻</a>
+   <li>
    </ul>
  </div>
  <!--内容-->
  <div id="content">
-   <!--通知内容-->
+  <!--文章列表-->   
+  <div id="list" style="width:300px;margin:15px">
+  <a href="page01.html" target="ifr">12级机制一班开展第四次推优活动</a><br />
+  <a href="page02.html" target="ifr">简化版213213</a><br />
+  <a href="page03.html" target="ifr">简化版3123123</a><br />
+  </div>
 <!--------------------------------------------------->  
-   <div class="notice">
-<h3>12级机制一班开展第四次推优活动</h3>
-<p>3月5日，12级机制一班于西2-207开展入党积极分子和发展对象推优活动。推优活动将选出5名入党积极分子和3名发展对象。对于还未成为入党积极分子的同学来说，这是最后一次有可能在大学期间完成入党程序的机会，因此此次推优至关重要。</p>
-<p>推优活动开始，团支书首先上场阐述此次推优活动的流程和具体投票形式，并鼓励同学积极上台参与推优。很快，即有同学主动上台宣讲并为自己拉票。随后，同学一位紧随着一位上台大方地向同学们表达自己的想法和申请入党的意愿。在所以参与推优的同学结束宣讲后，副团支书给每位同学发下选票，选出自己心目中合适的人选。随后在公平公正的唱票结束后，推选出了票数最高的数位同学作为入党积极分子的推选名单。</p>
-<p>入党积极分子的推选结束后开始了对上期入党积极分子的考核并选出数名合适的发展对象。在同学们耐心地填写完后，黑板统计出最终结果，得到了合理公正的最终票数名单。</p>
-<p>此次推优有效地满足了同学们向党组织靠拢的意愿和表达自我、表现自我的一次机会。相信此次推选出来的入党积极分子和发展对象能为班级建设起到更加重要的作用，并更好地为同学们服务且在学风建设、组织建设、思想建设等方面更好地起到带头表率作用。</p>
-<p align="right">2014年3月24日</p>
-   </div>
-
-
+  <script type="text/javascript" language="javascript">
+    function iFrameHeight() {
+        var ifm= document.getElementById("ifr");
+        var subWeb = document.frames ? document.frames["ifr"].document :
+ifm.contentDocument;
+            if(ifm != null && subWeb != null) {
+            ifm.height = subWeb.body.scrollHeight;
+            }
+    }
+  </script>  
 <!--------------------------------------------------->  
+  <div style="margin:0 auto;width:480px;padding:15px;height:auto !important;height:200px;min-height:200px;  ">
+    <iframe src="page01.html" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" width="480" id="ifr" name="ifr" onLoad="iFrameHeight()" ></iframe></div>
+   <!--------------------------------------------------->  
  </div>
+
  <!--页尾-->
  <div id="footer">&copy; 2014-2020 福州大学2012级机制一班 All rights reserved.</div>
- 
+
 </div> 
+<!--脚本-->
+
 </body>
 </html>
 
