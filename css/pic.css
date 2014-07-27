@@ -1,11 +1,5 @@
 /* CSS Document */
-* { margin:0; padding:0; }
-body { background:#FFF; color:#333; font:12px/1.6em Helvetica, Arial, sans-serif; }
-h1, h2, h3, h4, h5, h6 { font-size:1em; }
-a { color:#0287CA; text-decoration:none; }
-a:hover { text-decoration:underline; }
-ul, li { list-style:none; }
-fieldset, img { border:none; }
+fieldset,img { border:none; }
 legend { display:none; }
 em, strong, cite, th { font-style:normal; font-weight:normal; }
 input, textarea, select, button { font:12px Helvetica, Arial, sans-serif; }

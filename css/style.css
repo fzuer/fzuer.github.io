@@ -5,9 +5,11 @@ body {
 	font-size:small;
 	line-height:20px;
 }
+* {margin:0; padding:0;}
 a:link,a:visited{text-decoration:none;color:#0000FF;}
-a:hover,a:active{text-decoration:none;color:#FF9900;}
-li span{color:#000000;font-weight:bold;}
+a:active,a:hover{text-decoration:underline;color:#FF9900; }
+li span{color:#000000;font-weight:600;}
+ul, li {list-style:none;}
 /*主容器*/
 div#container{
 	width:600px;
@@ -69,15 +71,17 @@ div#footer
 }
 
 /*滚动条*/
-div#scro
+div#demo
 {
  width:235px;
- color:blue;
+ overflow:hidden;
  padding:10px;
  margin:10px 0 10px 10px;
- background-color:#EEE;
+ background-color:#FFFBF4;
  border: 0 #EEE;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;
 }
+div#demo a:link,div#demo a:visited
+{color:#000000;}
 
 /*内容*/
 div#content
